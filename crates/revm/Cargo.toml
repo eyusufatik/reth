@@ -33,8 +33,7 @@ reth-trie.workspace = true
 reth-ethereum-forks.workspace = true
 
 [features]
-default = ["std", "c-kzg"]
+default = ["std"]
 std = []
-c-kzg = ["revm/c-kzg"]
 test-utils = ["dep:reth-trie"]
 optimism = ["revm/optimism"]
